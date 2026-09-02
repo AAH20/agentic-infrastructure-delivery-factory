@@ -1,0 +1,2 @@
+{"provider":"NVIDIA NIM","api":"OpenAI-compatible","uses":["planning","code","embeddings","reranking"],"deployment":["hosted-api","kubernetes","edge"],"status":"contract-not-exercised"}
+

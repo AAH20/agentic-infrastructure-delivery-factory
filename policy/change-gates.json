@@ -1,0 +1,2 @@
+{"schema":"agentic.change-gates.v1","stages":["observe","retrieve-context","plan","validate","simulate","evaluate","approve","apply","verify","learn"],"hard_gates":{"dependency_coverage_min":0.9,"test_coverage_min":0.85,"policy_violations_max":0,"rollback_defined":true},"prohibited":["llm-direct-production-change","self-approval","unverified-value-claim","policy-memory-rewrite"]}
+

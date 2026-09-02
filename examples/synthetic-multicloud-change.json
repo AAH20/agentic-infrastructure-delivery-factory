@@ -1,0 +1,2652 @@
+{
+  "resources": [
+    {
+      "id": "res-000",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 500,
+      "criticality": "critical",
+      "region": "germany-west-central",
+      "dependencies": []
+    },
+    {
+      "id": "res-001",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 675,
+      "criticality": "critical",
+      "region": "west-europe",
+      "dependencies": []
+    },
+    {
+      "id": "res-002",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 850,
+      "criticality": "critical",
+      "region": "us-east",
+      "dependencies": []
+    },
+    {
+      "id": "res-003",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1025,
+      "criticality": "critical",
+      "region": "on-prem",
+      "dependencies": []
+    },
+    {
+      "id": "res-004",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1200,
+      "criticality": "critical",
+      "region": "germany-west-central",
+      "dependencies": []
+    },
+    {
+      "id": "res-005",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 1375,
+      "criticality": "critical",
+      "region": "west-europe",
+      "dependencies": []
+    },
+    {
+      "id": "res-006",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 1550,
+      "criticality": "critical",
+      "region": "us-east",
+      "dependencies": []
+    },
+    {
+      "id": "res-007",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1725,
+      "criticality": "critical",
+      "region": "on-prem",
+      "dependencies": []
+    },
+    {
+      "id": "res-008",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1900,
+      "criticality": "critical",
+      "region": "germany-west-central",
+      "dependencies": []
+    },
+    {
+      "id": "res-009",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2075,
+      "criticality": "critical",
+      "region": "west-europe",
+      "dependencies": []
+    },
+    {
+      "id": "res-010",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2250,
+      "criticality": "critical",
+      "region": "us-east",
+      "dependencies": []
+    },
+    {
+      "id": "res-011",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 2425,
+      "criticality": "critical",
+      "region": "on-prem",
+      "dependencies": []
+    },
+    {
+      "id": "res-012",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-013",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-014",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-015",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-016",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-017",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-018",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-019",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-020",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-021",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-022",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-023",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-024",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-025",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-026",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-027",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-028",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-029",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-030",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-031",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-032",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-033",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-034",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-035",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-036",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-037",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-038",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-039",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-040",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-041",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-042",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-043",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-044",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-045",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-046",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-047",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-048",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-049",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-050",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-051",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-052",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-053",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-054",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-055",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-056",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-057",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-058",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-059",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-060",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-061",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-062",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-063",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-064",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-065",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-066",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-067",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-068",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-069",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-070",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-071",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-072",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-073",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-074",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-075",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-076",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-077",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-078",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-079",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-080",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-081",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-082",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-083",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-084",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-085",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-086",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-087",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-088",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-089",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-090",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-091",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-092",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-093",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-094",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-095",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-096",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-097",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-098",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-099",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-100",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-101",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-102",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-103",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-104",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-105",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-106",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-107",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-108",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-109",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-110",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-111",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-112",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-113",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-114",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-115",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-116",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-117",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-118",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-119",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-120",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-121",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-122",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-123",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-124",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-125",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-126",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-127",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-128",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-129",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-130",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-131",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-132",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-133",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-134",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-135",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-136",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-137",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-138",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-139",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-140",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-141",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-142",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-143",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-144",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-145",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-146",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-147",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-148",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-149",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-150",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-151",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-152",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-153",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-154",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-155",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-156",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-157",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-158",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-159",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-160",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-161",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-162",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-163",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-164",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-165",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-166",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-167",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-168",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-169",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-170",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-171",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-172",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-173",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-174",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-175",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-176",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-177",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-178",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-179",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-180",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-181",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-182",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-183",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-184",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-185",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-186",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-187",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-188",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-189",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-190",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-191",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-192",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-193",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-194",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-195",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-196",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-197",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-198",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-199",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-200",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-201",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-202",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-203",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-204",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-205",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-206",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-207",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-208",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-209",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-210",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-211",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-212",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-213",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-214",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-215",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-216",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-217",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-218",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-219",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-220",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 500,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-221",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 675,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-222",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 850,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-223",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 1025,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-224",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 1200,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-225",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 1375,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-226",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 1550,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-227",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 1725,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    },
+    {
+      "id": "res-228",
+      "kind": "vnet",
+      "owner": "team-0",
+      "monthly_cost_usd": 1900,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-000"
+      ]
+    },
+    {
+      "id": "res-229",
+      "kind": "cluster",
+      "owner": "team-1",
+      "monthly_cost_usd": 2075,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-001"
+      ]
+    },
+    {
+      "id": "res-230",
+      "kind": "service",
+      "owner": "team-2",
+      "monthly_cost_usd": 2250,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-002"
+      ]
+    },
+    {
+      "id": "res-231",
+      "kind": "database",
+      "owner": "team-3",
+      "monthly_cost_usd": 2425,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-003"
+      ]
+    },
+    {
+      "id": "res-232",
+      "kind": "gpu-pool",
+      "owner": "team-4",
+      "monthly_cost_usd": 2600,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-004"
+      ]
+    },
+    {
+      "id": "res-233",
+      "kind": "policy",
+      "owner": "team-5",
+      "monthly_cost_usd": 2775,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-005"
+      ]
+    },
+    {
+      "id": "res-234",
+      "kind": "vnet",
+      "owner": "team-6",
+      "monthly_cost_usd": 2950,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-006"
+      ]
+    },
+    {
+      "id": "res-235",
+      "kind": "cluster",
+      "owner": "team-7",
+      "monthly_cost_usd": 3125,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-007"
+      ]
+    },
+    {
+      "id": "res-236",
+      "kind": "service",
+      "owner": "team-8",
+      "monthly_cost_usd": 3300,
+      "criticality": "standard",
+      "region": "germany-west-central",
+      "dependencies": [
+        "res-008"
+      ]
+    },
+    {
+      "id": "res-237",
+      "kind": "database",
+      "owner": "team-9",
+      "monthly_cost_usd": 3475,
+      "criticality": "standard",
+      "region": "west-europe",
+      "dependencies": [
+        "res-009"
+      ]
+    },
+    {
+      "id": "res-238",
+      "kind": "gpu-pool",
+      "owner": "team-10",
+      "monthly_cost_usd": 3650,
+      "criticality": "standard",
+      "region": "us-east",
+      "dependencies": [
+        "res-010"
+      ]
+    },
+    {
+      "id": "res-239",
+      "kind": "policy",
+      "owner": "team-11",
+      "monthly_cost_usd": 3825,
+      "criticality": "standard",
+      "region": "on-prem",
+      "dependencies": [
+        "res-011"
+      ]
+    }
+  ],
+  "change": {
+    "id": "chg-eu-ai-support",
+    "goal": "launch EU-resident AI support at 5000 RPM",
+    "target_ids": [
+      "res-012",
+      "res-013",
+      "res-014"
+    ],
+    "estimated_revenue_usd": 180000,
+    "latency_slo_ms": 800,
+    "budget_usd": 45000,
+    "residency": "EU",
+    "requested_action": "provision-and-connect"
+  },
+  "observation": {
+    "prior_failures": 1,
+    "similar_changes": 14,
+    "test_coverage": 0.91,
+    "plan_drift": 0,
+    "policy_violations": 0,
+    "dependency_coverage": 0.94,
+    "capacity_utilization": 0.83
+  },
+  "execution": {
+    "approved": true,
+    "verification_passed": true,
+    "engineering_hours_saved": 120,
+    "hourly_cost_usd": 135,
+    "inference_cost_usd": 240,
+    "test_cost_usd": 850,
+    "execution_cost_usd": 2100
+  }
+}

@@ -1,0 +1,2 @@
+{"iac":["Terraform","OpenTofu","Bicep","Helm"],"configuration":["Ansible","Chef","Puppet"],"network":["Ansible Network","Batfish","containerlab"],"compliance":["OPA","Conftest","Checkov","Azure Policy"],"status":"contracts-not-exercised"}
+

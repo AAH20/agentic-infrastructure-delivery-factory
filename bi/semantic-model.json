@@ -1,0 +1,2 @@
+{"facts":["change","evaluation","execution","cost","incident","business_outcome"],"dimensions":["time","cloud","region","team","service","model","policy","evidence_class"],"measures":["lead_time_hours","change_failure_rate","rollback_success_rate","cost_per_verified_change","verified_value_usd","roi","dependency_coverage","test_coverage","inference_cost_usd","capacity_utilization"],"prediction":"change_failure_probability","prescription":"ranked_remediation_actions"}
+

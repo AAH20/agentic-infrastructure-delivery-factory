@@ -1,0 +1,2 @@
+{"authority":{"organizational_goals":"Paperclip","operator_gateway":"OpenClaw","durable_state_machine":"LangGraph","specialist_collaboration":"CrewAI","model_tool_adapters":"LangChain","inference":"NVIDIA NIM"},"rule":"Only LangGraph owns execution state; other frameworks operate within bounded stages","status":"contract"}
+
