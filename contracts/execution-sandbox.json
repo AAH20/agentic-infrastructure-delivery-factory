@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "status": "contract",
+  "defaults": {"network": "deny", "credentials": "ephemeral", "filesystem": "read-only", "timeout_seconds": 300},
+  "promotion_path": ["plan", "static-validation", "isolated-simulation", "human-approval", "canary", "verify", "expand"],
+  "hard_blocks": ["undeclared-target", "unscoped-credential", "policy-failure", "missing-rollback", "missing-verification"]
+}
